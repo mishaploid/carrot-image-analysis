@@ -1,0 +1,277 @@
+JOB perm2 permutation.submit
+VARS perm2 trait="2"
+JOB perm3 permutation.submit
+VARS perm3 trait="3"
+JOB perm4 permutation.submit
+VARS perm4 trait="4"
+JOB perm5 permutation.submit
+VARS perm5 trait="5"
+JOB perm6 permutation.submit
+VARS perm6 trait="6"
+JOB perm7 permutation.submit
+VARS perm7 trait="7"
+JOB perm8 permutation.submit
+VARS perm8 trait="8"
+JOB perm9 permutation.submit
+VARS perm9 trait="9"
+JOB perm10 permutation.submit
+VARS perm10 trait="10"
+JOB perm11 permutation.submit
+VARS perm11 trait="11"
+JOB perm12 permutation.submit
+VARS perm12 trait="12"
+JOB perm13 permutation.submit
+VARS perm13 trait="13"
+JOB perm14 permutation.submit
+VARS perm14 trait="14"
+JOB perm15 permutation.submit
+VARS perm15 trait="15"
+JOB perm16 permutation.submit
+VARS perm16 trait="16"
+JOB perm17 permutation.submit
+VARS perm17 trait="17"
+JOB perm18 permutation.submit
+VARS perm18 trait="18"
+JOB perm19 permutation.submit
+VARS perm19 trait="19"
+JOB perm20 permutation.submit
+VARS perm20 trait="20"
+JOB perm21 permutation.submit
+VARS perm21 trait="21"
+JOB perm22 permutation.submit
+VARS perm22 trait="22"
+JOB perm23 permutation.submit
+VARS perm23 trait="23"
+JOB perm24 permutation.submit
+VARS perm24 trait="24"
+JOB perm25 permutation.submit
+VARS perm25 trait="25"
+JOB perm26 permutation.submit
+VARS perm26 trait="26"
+JOB perm27 permutation.submit
+VARS perm27 trait="27"
+JOB perm28 permutation.submit
+VARS perm28 trait="28"
+JOB perm29 permutation.submit
+VARS perm29 trait="29"
+JOB perm30 permutation.submit
+VARS perm30 trait="30"
+JOB perm31 permutation.submit
+VARS perm31 trait="31"
+JOB perm32 permutation.submit
+VARS perm32 trait="32"
+JOB perm33 permutation.submit
+VARS perm33 trait="33"
+JOB perm34 permutation.submit
+VARS perm34 trait="34"
+JOB perm35 permutation.submit
+VARS perm35 trait="35"
+JOB perm36 permutation.submit
+VARS perm36 trait="36"
+JOB perm37 permutation.submit
+VARS perm37 trait="37"
+JOB perm38 permutation.submit
+VARS perm38 trait="38"
+JOB perm39 permutation.submit
+VARS perm39 trait="39"
+JOB perm40 permutation.submit
+VARS perm40 trait="40"
+
+SCRIPT POST perm2 tarit.sh 2
+SCRIPT POST perm3 tarit.sh 3
+SCRIPT POST perm4 tarit.sh 4
+SCRIPT POST perm5 tarit.sh 5
+SCRIPT POST perm6 tarit.sh 6
+SCRIPT POST perm7 tarit.sh 7
+SCRIPT POST perm8 tarit.sh 8
+SCRIPT POST perm9 tarit.sh 9
+SCRIPT POST perm10 tarit.sh 10
+SCRIPT POST perm11 tarit.sh 11
+SCRIPT POST perm12 tarit.sh 12
+SCRIPT POST perm13 tarit.sh 13
+SCRIPT POST perm14 tarit.sh 14
+SCRIPT POST perm15 tarit.sh 15
+SCRIPT POST perm16 tarit.sh 16
+SCRIPT POST perm17 tarit.sh 17
+SCRIPT POST perm18 tarit.sh 18
+SCRIPT POST perm19 tarit.sh 19
+SCRIPT POST perm20 tarit.sh 20
+SCRIPT POST perm21 tarit.sh 21
+SCRIPT POST perm22 tarit.sh 22
+SCRIPT POST perm23 tarit.sh 23
+SCRIPT POST perm24 tarit.sh 24
+SCRIPT POST perm25 tarit.sh 25
+SCRIPT POST perm26 tarit.sh 26
+SCRIPT POST perm27 tarit.sh 27
+SCRIPT POST perm28 tarit.sh 28
+SCRIPT POST perm29 tarit.sh 29
+SCRIPT POST perm30 tarit.sh 30
+SCRIPT POST perm31 tarit.sh 31
+SCRIPT POST perm32 tarit.sh 32
+SCRIPT POST perm33 tarit.sh 33
+SCRIPT POST perm34 tarit.sh 34
+SCRIPT POST perm35 tarit.sh 35
+SCRIPT POST perm36 tarit.sh 36
+SCRIPT POST perm37 tarit.sh 37
+SCRIPT POST perm38 tarit.sh 38
+SCRIPT POST perm39 tarit.sh 39
+SCRIPT POST perm40 tarit.sh 40
+
+JOB qtl2 qtl.submit
+VARS qtl2 trait="2"
+JOB qtl3 qtl.submit
+VARS qtl3 trait="3"
+JOB qtl4 qtl.submit
+VARS qtl4 trait="4"
+JOB qtl5 qtl.submit
+VARS qtl5 trait="5"
+JOB qtl6 qtl.submit
+VARS qtl6 trait="6"
+JOB qtl7 qtl.submit
+VARS qtl7 trait="7"
+JOB qtl8 qtl.submit
+VARS qtl8 trait="8"
+JOB qtl9 qtl.submit
+VARS qtl9 trait="9"
+JOB qtl10 qtl.submit
+VARS qtl10 trait="10"
+JOB qtl11 qtl.submit
+VARS qtl11 trait="11"
+JOB qtl12 qtl.submit
+VARS qtl12 trait="12"
+JOB qtl13 qtl.submit
+VARS qtl13 trait="13"
+JOB qtl14 qtl.submit
+VARS qtl14 trait="14"
+JOB qtl15 qtl.submit
+VARS qtl15 trait="15"
+JOB qtl16 qtl.submit
+VARS qtl16 trait="16"
+JOB qtl17 qtl.submit
+VARS qtl17 trait="17"
+JOB qtl18 qtl.submit
+VARS qtl18 trait="18"
+JOB qtl19 qtl.submit
+VARS qtl19 trait="19"
+JOB qtl20 qtl.submit
+VARS qtl20 trait="20"
+JOB qtl21 qtl.submit
+VARS qtl21 trait="21"
+JOB qtl22 qtl.submit
+VARS qtl22 trait="22"
+JOB qtl23 qtl.submit
+VARS qtl23 trait="23"
+JOB qtl24 qtl.submit
+VARS qtl24 trait="24"
+JOB qtl25 qtl.submit
+VARS qtl25 trait="25"
+JOB qtl26 qtl.submit
+VARS qtl26 trait="26"
+JOB qtl27 qtl.submit
+VARS qtl27 trait="27"
+JOB qtl28 qtl.submit
+VARS qtl28 trait="28"
+JOB qtl29 qtl.submit
+VARS qtl29 trait="29"
+JOB qtl30 qtl.submit
+VARS qtl30 trait="30"
+JOB qtl31 qtl.submit
+VARS qtl31 trait="31"
+JOB qtl32 qtl.submit
+VARS qtl32 trait="32"
+JOB qtl33 qtl.submit
+VARS qtl33 trait="33"
+JOB qtl34 qtl.submit
+VARS qtl34 trait="34"
+JOB qtl35 qtl.submit
+VARS qtl35 trait="35"
+JOB qtl36 qtl.submit
+VARS qtl36 trait="36"
+JOB qtl37 qtl.submit
+VARS qtl37 trait="37"
+JOB qtl38 qtl.submit
+VARS qtl38 trait="38"
+JOB qtl39 qtl.submit
+VARS qtl39 trait="39"
+JOB qtl40 qtl.submit
+VARS qtl40 trait="40"
+
+SCRIPT POST qtl2 taritall.sh 2
+SCRIPT POST qtl3 taritall.sh 3
+SCRIPT POST qtl4 taritall.sh 4
+SCRIPT POST qtl5 taritall.sh 5
+SCRIPT POST qtl6 taritall.sh 6
+SCRIPT POST qtl7 taritall.sh 7
+SCRIPT POST qtl8 taritall.sh 8
+SCRIPT POST qtl9 taritall.sh 9
+SCRIPT POST qtl10 taritall.sh 10
+SCRIPT POST qtl11 taritall.sh 11
+SCRIPT POST qtl12 taritall.sh 12
+SCRIPT POST qtl13 taritall.sh 13
+SCRIPT POST qtl14 taritall.sh 14
+SCRIPT POST qtl15 taritall.sh 15
+SCRIPT POST qtl16 taritall.sh 16
+SCRIPT POST qtl17 taritall.sh 17
+SCRIPT POST qtl18 taritall.sh 18
+SCRIPT POST qtl19 taritall.sh 19
+SCRIPT POST qtl20 taritall.sh 20
+SCRIPT POST qtl21 taritall.sh 21
+SCRIPT POST qtl22 taritall.sh 22
+SCRIPT POST qtl23 taritall.sh 23
+SCRIPT POST qtl24 taritall.sh 24
+SCRIPT POST qtl25 taritall.sh 25
+SCRIPT POST qtl26 taritall.sh 26
+SCRIPT POST qtl27 taritall.sh 27
+SCRIPT POST qtl28 taritall.sh 28
+SCRIPT POST qtl29 taritall.sh 29
+SCRIPT POST qtl30 taritall.sh 30
+SCRIPT POST qtl31 taritall.sh 31
+SCRIPT POST qtl32 taritall.sh 32
+SCRIPT POST qtl33 taritall.sh 33
+SCRIPT POST qtl34 taritall.sh 34
+SCRIPT POST qtl35 taritall.sh 35
+SCRIPT POST qtl36 taritall.sh 36
+SCRIPT POST qtl37 taritall.sh 37
+SCRIPT POST qtl38 taritall.sh 38
+SCRIPT POST qtl39 taritall.sh 39
+SCRIPT POST qtl40 taritall.sh 40
+
+PARENT perm2 CHILD qtl2
+PARENT perm3 CHILD qtl3
+PARENT perm4 CHILD qtl4
+PARENT perm5 CHILD qtl5
+PARENT perm6 CHILD qtl6
+PARENT perm7 CHILD qtl7
+PARENT perm8 CHILD qtl8
+PARENT perm9 CHILD qtl9
+PARENT perm10 CHILD qtl10
+PARENT perm11 CHILD qtl11
+PARENT perm12 CHILD qtl12
+PARENT perm13 CHILD qtl13
+PARENT perm14 CHILD qtl14
+PARENT perm15 CHILD qtl15
+PARENT perm16 CHILD qtl16
+PARENT perm17 CHILD qtl17
+PARENT perm18 CHILD qtl18
+PARENT perm19 CHILD qtl19
+PARENT perm20 CHILD qtl20
+PARENT perm21 CHILD qtl21
+PARENT perm22 CHILD qtl22
+PARENT perm23 CHILD qtl23
+PARENT perm24 CHILD qtl24
+PARENT perm25 CHILD qtl25
+PARENT perm26 CHILD qtl26
+PARENT perm27 CHILD qtl27
+PARENT perm28 CHILD qtl28
+PARENT perm29 CHILD qtl29
+PARENT perm30 CHILD qtl30
+PARENT perm31 CHILD qtl31
+PARENT perm32 CHILD qtl32
+PARENT perm33 CHILD qtl33
+PARENT perm34 CHILD qtl34
+PARENT perm35 CHILD qtl35
+PARENT perm36 CHILD qtl36
+PARENT perm37 CHILD qtl37
+PARENT perm38 CHILD qtl38
+PARENT perm39 CHILD qtl39
+PARENT perm40 CHILD qtl40

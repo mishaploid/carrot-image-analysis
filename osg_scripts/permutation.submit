@@ -1,0 +1,15 @@
+universe = vanilla
+output = $(trait)_$(Process).out
+error = $(trait)_$(Process).err
+log = $(trait)_$(Process).log
+executable = ./runR.pl
+arguments = $(trait)_$(Process) run_perm.R $(trait) $(Process) 100
+requirements = (Arch == "X86_64") && (OpSysMajorVer > 5)
+should_transfer_files = YES
+transfer_input_files = ./run_perm.R,./input.csv,./RLIBS.tar.gz
+
+request_cpus = 1
+request_memory = 400MB
+request_disk = 1GB
+
+queue 100

@@ -1,0 +1,15 @@
+universe = vanilla
+output = out/qtl_$(trait).out
+error = err/qtl_$(trait).err
+log = log/qtl_$(trait).log
+executable = ./runR.pl
+arguments = qtl_$(trait) run_qtl.R $(trait)
+requirements = (Arch == "X86_64") && (OpSysMajorVer > 5)
+should_transfer_files = YES
+transfer_input_files = ./run_qtl.R,./RLIBS.tar.gz,./input.csv,./perm_combined_$(trait).tar.gz
+queue
+
+request_cpus = 1
+request_disk = 1GB
+request_memory = 5GB
+
